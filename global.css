@@ -1,114 +1,73 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-body {
-    height: 100vh;
-    background-image: url(https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30517.jpg?w=1060&t=st=1678460390~exp=1678460990~hmac=87b575f4b7baa412526c1284f9c17f40f881d4df49a77ecc9cd809c0faa9082f);
-    background-size: cover;
-    background-position: center;
-    flex: auto;
-}
-li{
-    list-style: none;
-    color: #000;
-}
-a{
-    text-decoration: none;
-    font-size: 1rem;
-    color: #000;
-}
-a:hover{
-    color: orange;
+    padding: 0px;
+    margin: 0px;
 }
 
-    /* HEADER */
-header {
-    position: relative;
-    padding: 0 2rem;
+#header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 30px
 }
+
 #nav {
     width: 100%;
-    height: 60px;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #000;
-}
-#list {
-    display: flex;
-    gap: 2rem;
+    background-color: black;
+    overflow: auto;
 }
 
-/* FOOTER */
-footer{
-    left: 0;
-    background-color: black;
-    margin: 0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
+#list {
+    padding: 0px;
+    margin: 0 0 0 150px;
+    list-style: none;
 }
-.Bienvenida {
-    text-align: center;
-    top: 25%;
-    position: absolute;
-    width: 100%;
-}
-#subtext {
-    padding: 5px;
-}
-        /* GLOSARIO PAGE */
-.Titulo {
-    font-size: 30px;
-    font-family: Open Sans, sans-serif;
-    text-align: center;
-}
-#contenido {
-    width: 800px;
-    background-color: #fff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 25px;
-}
-    /* AUTOR Y DISENADOR */
-.Titulo {
-    font-size: 30px;
-    font-family: Open Sans, sans-serif;
-    text-align: center;
-}
-#parrafos {
-    font-size: 19px;
-}
-.author_image {
-    float: right;
-    max-height: 250px;
-    max-width: 250px;
-    display: flex;
-    padding: 8px;
-    margin-top: 50px;
-    margin-right: 200px;
-    background-color: orange;
-    border-radius: 25px;
-}
-#authortext_box {
-    width: 900px;
-    background-color: #fff;
-    display: block;
+
+li {
     float: left;
-    margin-top: 50px;
-    margin-left: 125px;
-    padding: 10px;
-    border-radius: 25px;
+}
+
+#main {
+    font-size: 21px;
+    width: 700px;
+    text-align: justify;
+    height: 800px;
+    margin: auto;
+}
+
+#footer {
+    clear: both;
+    vertical-align: bottom;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 90px;
+}
+
+.line1 {
+    margin: 0px 0px 12px 0px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    display: block;
+    vertical-align: middle;
+    float: left;
+}
+
+a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#nav a:hover{
+    background: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
 }
